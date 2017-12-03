@@ -84,8 +84,7 @@ def main():
     #print(api.VerifyCredentials()) -- DEBUG: Print Twitter credentials 
     
     while 1:
-
-        print('Iteration: ',i)        
+       
         now=datetime.datetime.now() #Get current time
         nowHour=now.hour #Extract current hour
     
