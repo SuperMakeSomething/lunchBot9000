@@ -104,7 +104,7 @@ def main():
                 elif randNum==3:
                     message=': Lunch? Do you have it?'
                 else:
-                    message='¿Dónde está lunch?'            
+                    message=': ¿Dónde está lunch?'            
                 
                 dm = api.PostDirectMessage(message,screen_name='SuperMakeSmthng') #Send DM with message string             
                 lunchFlag=1 #Set flag for having sent message
